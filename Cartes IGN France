@@ -1,0 +1,30 @@
+// Commentaire 
+//  Script  definissant le flux TMS pour la carte IGN type Plan: IGN PLAN V2
+//  Fin de  commentaire
+
+
+<TMS>
+<Layer idx="0">
+<Title>IGN TOPO</Title>
+<MinZoomLevel>1</MinZoomLevel>
+<MaxZoomLevel>19</MaxZoomLevel>
+<ServerUrl>https://wxs.ign.fr/pratique/geoportail/tms/1.0.0/GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2/%1/%2/%3.png</ServerUrl>
+</Layer>
+<Copyright> Map data: Plan IGN V2, licence ouverte Etalab v2.0</Copyright>
+</TMS>
+
+
+
+// Commentaire
+//  Flux TMS pour ajouter la vue ortho (satellite)  IGN Geoportail  France: ORTHO  GEOPORTAIL
+// Fin de commentaire
+
+<TMS>
+<Layer idx="0">
+<Title>IGN ORTHO</Title>
+<MinZoomLevel>1</MinZoomLevel>
+<MaxZoomLevel>19</MaxZoomLevel>
+<ServerUrl>https://wxs.ign.fr/pratique/geoportail/tms/1.0.0/ORTHOIMAGERY.ORTHOPHOTOS/%1/%2/%3.jpeg</ServerUrl>
+</Layer>
+<Copyright>Map data: Ortho Images, licence ouverte Etalab v2.0</Copyright>
+</TMS>
